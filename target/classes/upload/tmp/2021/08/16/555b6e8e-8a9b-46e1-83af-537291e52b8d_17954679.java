@@ -1,0 +1,1 @@
+import java.util.*;interface Main{static void main(String[]z){Scanner S=new Scanner(System.in);int A[]=new int[10],a=S.nextInt()*S.nextInt()*S.nextInt();for(;a>0;a/=10)A[a % 10]++;for(int i:A)System.out.println(i);}}
